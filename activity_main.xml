@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡️ भारत साइबर शील्ड"
+            android:textColor="#F8FAFC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="कम्प्लीट डिवाइस सिक्योरिटी व फ्रॉड प्रोटेक्शन"
+            android:textColor="#94A3B8"
+            android:textSize="13sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="इमरजेंसी साइबर हेल्पलाइन"
+            android:textColor="#EF4444"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <Button
+            android:id="@+id/btnCyberHelpline"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="🚨 1930 हेल्पलाइन डायल करें"
+            android:backgroundTint="#DC2626"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="डिवाइस शील्ड सेटिंग्स"
+            android:textColor="#38BDF8"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <Button
+            android:id="@+id/btnDns"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="1. Private DNS सेट करें (फिशिंग/ऐड्स ब्लॉक)"
+            android:backgroundTint="#0284C7"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnSpam"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="2. कॉलर ID व फ्रॉड स्पैम फ़िल्टर"
+            android:backgroundTint="#059669"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnCallForwardCancel"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="3. गुप्त कॉल फॉरवर्डिंग रद्द करें (##002#)"
+            android:backgroundTint="#D97706"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnUnknownApps"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="4. अनजान APK डाउनलोड लॉक"
+            android:backgroundTint="#7C3AED"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="5. जासूसी ऐप्स चेक करें (Accessibility)"
+            android:backgroundTint="#475569"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="सरकारी सुरक्षा पोर्टल्स"
+            android:textColor="#FBBF24"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <Button
+            android:id="@+id/btnTafcop"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="6. संचार साथी: फर्जी सिम चेक"
+            android:backgroundTint="#2563EB"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnAadhaarLock"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="7. UIDAI आधार बायोमेट्रिक लॉक"
+            android:backgroundTint="#0D9488"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>
